@@ -1,0 +1,66 @@
+{
+    "status": "pending|blockedByCompany|blockedByMe|rejected|interviewing|offered",
+    "job": {
+        "business": {
+            "name": "Google",
+            "link": "https://google.com"
+        },
+        "role": {
+            "title": "Software Engineer",
+            "link": "https://careers.google.com/jobs/results/82652223323939526-software-engineer/?company=Google&company=Google%20Fiber&company=YouTube&employment_type=FULL_TIME&hl=en_US&jlo=en_US&q=engineer&sort_by=relevance"
+        },
+        "skills": [
+            "C++",
+            "Cobol",
+            "PHP"
+        ],
+        "location": "Manchester, UK",
+        "pay": {
+            "min": 30000,
+            "max": 50000,
+            "currency": "£",
+            "type": "hourly|salary|per contract|etc"
+        },
+        "benefits": [
+            "Swimming pool",
+            "Free sweets"
+        ]
+    },
+    "blockers": [
+        {
+            "by": "me",
+            "reason": "waiting to complete application",
+            "active": false
+        },
+        {
+            "by": "business",
+            "reason": "processing application",
+            "active": true
+        }
+    ],
+    "interviews": [
+        {
+            "title": "First stage",
+            "date": "2019-12-25T12:30:00"
+        },
+        {
+            "title": "Second stage",
+            "date": "2019-12-27T16:00:00"
+        }
+    ],
+    "offers": [
+        {
+            "pay": {
+                "min": 30000,
+                "max": 50000,
+                "currency": "£",
+                "type": "hourly|salary|per contract|etc"
+            },
+            "benefits": [
+                "Swimming pool",
+                "Free sweets",
+                "Puppy"
+            ]
+        }
+    ]
+}
